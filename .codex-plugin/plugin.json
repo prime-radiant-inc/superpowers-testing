@@ -1,0 +1,30 @@
+{
+  "name": "superpowers",
+  "description": "Core skills library for Claude Code and Codex: TDD, debugging, collaboration patterns, and proven techniques",
+  "version": "5.0.7",
+  "author": {
+    "name": "Jesse Vincent",
+    "email": "jesse@fsck.com"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "best-practices",
+    "workflows"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Superpowers",
+    "shortDescription": "TDD, debugging, collaboration patterns, and proven techniques",
+    "longDescription": "Core skills library that enhances AI coding assistants with battle-tested workflows: test-driven development, systematic debugging, brainstorming, code review, plan writing and execution, and more.",
+    "developerName": "Jesse Vincent",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/obra/superpowers"
+  }
+}
