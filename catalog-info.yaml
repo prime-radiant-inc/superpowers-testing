@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: superpowers-testing
+  description: "Development/testing marketplace mirror of the Superpowers agentic skills framework and software-development workflow."
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    prime-radiant.com/repo-map-rev: "f70edf9be158d7742b5a5924e231dbe2d4add877"
+  tags: [shell, ai-agents]
+spec:
+  type: tool
+  lifecycle: experimental
+  owner: user:obra
+  system: superpowers
